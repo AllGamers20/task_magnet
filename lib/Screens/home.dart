@@ -75,7 +75,7 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('To-Do List',
+        title: const Text('TaskMagnet',
             style: TextStyle(
               color: scolor,
             )),
@@ -112,7 +112,6 @@ class _HomeState extends State<Home> {
               },
             ),
           ),
-
           Padding(
             padding: const EdgeInsets.all(16.0),
             child: Row(
